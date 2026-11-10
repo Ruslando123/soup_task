@@ -1,0 +1,10 @@
+node_modules/
+dist/
+dist-benchmark/
+playwright-report/
+test-results/
+.vercel/
+.env*
+.DS_Store
+*.local
+.vercel

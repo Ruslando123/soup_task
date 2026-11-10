@@ -1,0 +1,649 @@
+{
+  "measuredAt": "2026-11-10T10:23:49.817Z",
+  "metric": "performance.measureUserAgentSpecificMemory",
+  "checkpoint": "Full domain, all three charts ready, before zoom or hover",
+  "host": {
+    "platform": "darwin",
+    "release": "25.6.0",
+    "cpu": "Apple M1"
+  },
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "deviceScaleFactor": 1,
+  "cpuRate": 4,
+  "launchFlag": "--enable-blink-features=ForceEagerMeasureMemory",
+  "samples": [
+    {
+      "trial": 1,
+      "variant": "baseline",
+      "chrome": "156.0.8078.81",
+      "initialRows": [
+        1000000,
+        1000000,
+        1000000
+      ],
+      "workerBytes": 0,
+      "breakdown": [
+        {
+          "attribution": [],
+          "bytes": 0,
+          "types": []
+        },
+        {
+          "attribution": [],
+          "bytes": 1186304,
+          "types": [
+            "Shared"
+          ]
+        },
+        {
+          "attribution": [
+            {
+              "scope": "Window",
+              "url": "http://127.0.0.1:60306/performance/index.html?variant=baseline"
+            }
+          ],
+          "bytes": 32533452,
+          "types": [
+            "JavaScript"
+          ]
+        },
+        {
+          "attribution": [
+            {
+              "scope": "Window",
+              "url": "http://127.0.0.1:60306/performance/index.html?variant=baseline"
+            }
+          ],
+          "bytes": 2376000,
+          "types": [
+            "Canvas"
+          ]
+        },
+        {
+          "attribution": [],
+          "bytes": 34504,
+          "types": [
+            "DOM"
+          ]
+        }
+      ],
+      "bytes": 36130260
+    },
+    {
+      "trial": 1,
+      "variant": "optimized",
+      "chrome": "156.0.8078.81",
+      "initialRows": [
+        1964,
+        1962,
+        1964
+      ],
+      "workerBytes": 32382778,
+      "breakdown": [
+        {
+          "attribution": [],
+          "bytes": 363358,
+          "types": [
+            "Shared"
+          ]
+        },
+        {
+          "attribution": [],
+          "bytes": 0,
+          "types": []
+        },
+        {
+          "attribution": [
+            {
+              "scope": "Window",
+              "url": "http://127.0.0.1:60306/performance/index.html?variant=optimized"
+            }
+          ],
+          "bytes": 1415548,
+          "types": [
+            "JavaScript"
+          ]
+        },
+        {
+          "attribution": [
+            {
+              "scope": "DedicatedWorkerGlobalScope",
+              "url": "http://127.0.0.1:60306/assets/run.worker-BDY5R5Ut.js"
+            }
+          ],
+          "bytes": 32382778,
+          "types": [
+            "JavaScript"
+          ]
+        },
+        {
+          "attribution": [],
+          "bytes": 34504,
+          "types": [
+            "DOM"
+          ]
+        },
+        {
+          "attribution": [
+            {
+              "scope": "Window",
+              "url": "http://127.0.0.1:60306/performance/index.html?variant=optimized"
+            }
+          ],
+          "bytes": 2376000,
+          "types": [
+            "Canvas"
+          ]
+        }
+      ],
+      "bytes": 36572188
+    },
+    {
+      "trial": 2,
+      "variant": "optimized",
+      "chrome": "156.0.8078.81",
+      "initialRows": [
+        1964,
+        1962,
+        1964
+      ],
+      "workerBytes": 32382778,
+      "breakdown": [
+        {
+          "attribution": [],
+          "bytes": 34504,
+          "types": [
+            "DOM"
+          ]
+        },
+        {
+          "attribution": [],
+          "bytes": 0,
+          "types": []
+        },
+        {
+          "attribution": [],
+          "bytes": 1210401,
+          "types": [
+            "Shared"
+          ]
+        },
+        {
+          "attribution": [
+            {
+              "scope": "DedicatedWorkerGlobalScope",
+              "url": "http://127.0.0.1:60306/assets/run.worker-BDY5R5Ut.js"
+            }
+          ],
+          "bytes": 32382778,
+          "types": [
+            "JavaScript"
+          ]
+        },
+        {
+          "attribution": [
+            {
+              "scope": "Window",
+              "url": "http://127.0.0.1:60306/performance/index.html?variant=optimized"
+            }
+          ],
+          "bytes": 562679,
+          "types": [
+            "JavaScript"
+          ]
+        },
+        {
+          "attribution": [
+            {
+              "scope": "Window",
+              "url": "http://127.0.0.1:60306/performance/index.html?variant=optimized"
+            }
+          ],
+          "bytes": 2376000,
+          "types": [
+            "Canvas"
+          ]
+        }
+      ],
+      "bytes": 36566362
+    },
+    {
+      "trial": 2,
+      "variant": "baseline",
+      "chrome": "156.0.8078.81",
+      "initialRows": [
+        1000000,
+        1000000,
+        1000000
+      ],
+      "workerBytes": 0,
+      "breakdown": [
+        {
+          "attribution": [],
+          "bytes": 0,
+          "types": []
+        },
+        {
+          "attribution": [
+            {
+              "scope": "Window",
+              "url": "http://127.0.0.1:60306/performance/index.html?variant=baseline"
+            }
+          ],
+          "bytes": 2376000,
+          "types": [
+            "Canvas"
+          ]
+        },
+        {
+          "attribution": [],
+          "bytes": 1243890,
+          "types": [
+            "Shared"
+          ]
+        },
+        {
+          "attribution": [],
+          "bytes": 34504,
+          "types": [
+            "DOM"
+          ]
+        },
+        {
+          "attribution": [
+            {
+              "scope": "Window",
+              "url": "http://127.0.0.1:60306/performance/index.html?variant=baseline"
+            }
+          ],
+          "bytes": 32475666,
+          "types": [
+            "JavaScript"
+          ]
+        }
+      ],
+      "bytes": 36130060
+    },
+    {
+      "trial": 3,
+      "variant": "baseline",
+      "chrome": "156.0.8078.81",
+      "initialRows": [
+        1000000,
+        1000000,
+        1000000
+      ],
+      "workerBytes": 0,
+      "breakdown": [
+        {
+          "attribution": [],
+          "bytes": 788394,
+          "types": [
+            "Shared"
+          ]
+        },
+        {
+          "attribution": [],
+          "bytes": 34504,
+          "types": [
+            "DOM"
+          ]
+        },
+        {
+          "attribution": [],
+          "bytes": 0,
+          "types": []
+        },
+        {
+          "attribution": [
+            {
+              "scope": "Window",
+              "url": "http://127.0.0.1:60306/performance/index.html?variant=baseline"
+            }
+          ],
+          "bytes": 32939584,
+          "types": [
+            "JavaScript"
+          ]
+        },
+        {
+          "attribution": [
+            {
+              "scope": "Window",
+              "url": "http://127.0.0.1:60306/performance/index.html?variant=baseline"
+            }
+          ],
+          "bytes": 2376000,
+          "types": [
+            "Canvas"
+          ]
+        }
+      ],
+      "bytes": 36138482
+    },
+    {
+      "trial": 3,
+      "variant": "optimized",
+      "chrome": "156.0.8078.81",
+      "initialRows": [
+        1964,
+        1962,
+        1964
+      ],
+      "workerBytes": 32382778,
+      "breakdown": [
+        {
+          "attribution": [
+            {
+              "scope": "Window",
+              "url": "http://127.0.0.1:60306/performance/index.html?variant=optimized"
+            }
+          ],
+          "bytes": 566906,
+          "types": [
+            "JavaScript"
+          ]
+        },
+        {
+          "attribution": [
+            {
+              "scope": "DedicatedWorkerGlobalScope",
+              "url": "http://127.0.0.1:60306/assets/run.worker-BDY5R5Ut.js"
+            }
+          ],
+          "bytes": 32382778,
+          "types": [
+            "JavaScript"
+          ]
+        },
+        {
+          "attribution": [],
+          "bytes": 1207710,
+          "types": [
+            "Shared"
+          ]
+        },
+        {
+          "attribution": [
+            {
+              "scope": "Window",
+              "url": "http://127.0.0.1:60306/performance/index.html?variant=optimized"
+            }
+          ],
+          "bytes": 2376000,
+          "types": [
+            "Canvas"
+          ]
+        },
+        {
+          "attribution": [],
+          "bytes": 34504,
+          "types": [
+            "DOM"
+          ]
+        },
+        {
+          "attribution": [],
+          "bytes": 0,
+          "types": []
+        }
+      ],
+      "bytes": 36567898
+    },
+    {
+      "trial": 4,
+      "variant": "optimized",
+      "chrome": "156.0.8078.81",
+      "initialRows": [
+        1964,
+        1962,
+        1964
+      ],
+      "workerBytes": 32382778,
+      "breakdown": [
+        {
+          "attribution": [],
+          "bytes": 366850,
+          "types": [
+            "Shared"
+          ]
+        },
+        {
+          "attribution": [],
+          "bytes": 0,
+          "types": []
+        },
+        {
+          "attribution": [
+            {
+              "scope": "Window",
+              "url": "http://127.0.0.1:60306/performance/index.html?variant=optimized"
+            }
+          ],
+          "bytes": 1414148,
+          "types": [
+            "JavaScript"
+          ]
+        },
+        {
+          "attribution": [],
+          "bytes": 34504,
+          "types": [
+            "DOM"
+          ]
+        },
+        {
+          "attribution": [
+            {
+              "scope": "DedicatedWorkerGlobalScope",
+              "url": "http://127.0.0.1:60306/assets/run.worker-BDY5R5Ut.js"
+            }
+          ],
+          "bytes": 32382778,
+          "types": [
+            "JavaScript"
+          ]
+        },
+        {
+          "attribution": [
+            {
+              "scope": "Window",
+              "url": "http://127.0.0.1:60306/performance/index.html?variant=optimized"
+            }
+          ],
+          "bytes": 2376000,
+          "types": [
+            "Canvas"
+          ]
+        }
+      ],
+      "bytes": 36574280
+    },
+    {
+      "trial": 4,
+      "variant": "baseline",
+      "chrome": "156.0.8078.81",
+      "initialRows": [
+        1000000,
+        1000000,
+        1000000
+      ],
+      "workerBytes": 0,
+      "breakdown": [
+        {
+          "attribution": [
+            {
+              "scope": "Window",
+              "url": "http://127.0.0.1:60306/performance/index.html?variant=baseline"
+            }
+          ],
+          "bytes": 32485857,
+          "types": [
+            "JavaScript"
+          ]
+        },
+        {
+          "attribution": [],
+          "bytes": 0,
+          "types": []
+        },
+        {
+          "attribution": [],
+          "bytes": 1241761,
+          "types": [
+            "Shared"
+          ]
+        },
+        {
+          "attribution": [
+            {
+              "scope": "Window",
+              "url": "http://127.0.0.1:60306/performance/index.html?variant=baseline"
+            }
+          ],
+          "bytes": 2376000,
+          "types": [
+            "Canvas"
+          ]
+        },
+        {
+          "attribution": [],
+          "bytes": 34504,
+          "types": [
+            "DOM"
+          ]
+        }
+      ],
+      "bytes": 36138122
+    },
+    {
+      "trial": 5,
+      "variant": "baseline",
+      "chrome": "156.0.8078.81",
+      "initialRows": [
+        1000000,
+        1000000,
+        1000000
+      ],
+      "workerBytes": 0,
+      "breakdown": [
+        {
+          "attribution": [],
+          "bytes": 34504,
+          "types": [
+            "DOM"
+          ]
+        },
+        {
+          "attribution": [],
+          "bytes": 1243805,
+          "types": [
+            "Shared"
+          ]
+        },
+        {
+          "attribution": [
+            {
+              "scope": "Window",
+              "url": "http://127.0.0.1:60306/performance/index.html?variant=baseline"
+            }
+          ],
+          "bytes": 2376000,
+          "types": [
+            "Canvas"
+          ]
+        },
+        {
+          "attribution": [],
+          "bytes": 0,
+          "types": []
+        },
+        {
+          "attribution": [
+            {
+              "scope": "Window",
+              "url": "http://127.0.0.1:60306/performance/index.html?variant=baseline"
+            }
+          ],
+          "bytes": 32475763,
+          "types": [
+            "JavaScript"
+          ]
+        }
+      ],
+      "bytes": 36130072
+    },
+    {
+      "trial": 5,
+      "variant": "optimized",
+      "chrome": "156.0.8078.81",
+      "initialRows": [
+        1964,
+        1962,
+        1964
+      ],
+      "workerBytes": 32382778,
+      "breakdown": [
+        {
+          "attribution": [],
+          "bytes": 1210546,
+          "types": [
+            "Shared"
+          ]
+        },
+        {
+          "attribution": [],
+          "bytes": 34504,
+          "types": [
+            "DOM"
+          ]
+        },
+        {
+          "attribution": [
+            {
+              "scope": "DedicatedWorkerGlobalScope",
+              "url": "http://127.0.0.1:60306/assets/run.worker-BDY5R5Ut.js"
+            }
+          ],
+          "bytes": 32382778,
+          "types": [
+            "JavaScript"
+          ]
+        },
+        {
+          "attribution": [],
+          "bytes": 0,
+          "types": []
+        },
+        {
+          "attribution": [
+            {
+              "scope": "Window",
+              "url": "http://127.0.0.1:60306/performance/index.html?variant=optimized"
+            }
+          ],
+          "bytes": 2376000,
+          "types": [
+            "Canvas"
+          ]
+        },
+        {
+          "attribution": [
+            {
+              "scope": "Window",
+              "url": "http://127.0.0.1:60306/performance/index.html?variant=optimized"
+            }
+          ],
+          "bytes": 562390,
+          "types": [
+            "JavaScript"
+          ]
+        }
+      ],
+      "bytes": 36566218
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+v22.23.2
+
+added 68 packages, and audited 75 packages in 3s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+found 0 vulnerabilities
+
+> soup-training-run-monitor@1.0.0 catalog
+> node --experimental-strip-types scripts/catalog.mts
+
+
+> soup-training-run-monitor@1.0.0 test
+> vitest run
+
+
+ RUN  v5.1.0 <workspace>
+
+
+ Test Files  1 passed (1)
+      Tests  13 passed (13)
+   Start at  12:52:47
+   Duration  1.19s (tests 84%, import 11%, transform 4%)
+
+
+> soup-training-run-monitor@1.0.0 build
+> npm run typecheck && vite build
+
+
+> soup-training-run-monitor@1.0.0 typecheck
+> tsc --noEmit
+
+vite v8.3.7 building client environment for production...
+transforming...
+✓ 2088 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                       0.66 kB │ gzip:   0.40 kB
+dist/assets/run.worker-BDY5R5Ut.js    9.72 kB
+dist/assets/index-KPK1rI4s.css       22.68 kB │ gzip:   5.98 kB
+dist/assets/index-eT8sxNOd.js       315.03 kB │ gzip: 105.70 kB
+
+✓ built in 238ms
+
+> soup-training-run-monitor@1.0.0 test:e2e
+> playwright test
+
+
+Running 13 tests using 2 workers
+
+(node:61366) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:61367) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/e2e/monitor.spec.ts:13:1 › search, combine filters, and reset an empty result (1.7s)
+  ✓   2 tests/e2e/monitor.spec.ts:27:1 › sorts steps and latest loss numerically and leaves unavailable loss last (1.8s)
+  ✓   3 tests/e2e/monitor.spec.ts:41:1 › catalog loading, HTTP error, retry, and mismatched snapshot (844ms)
+  ✓   4 tests/e2e/monitor.spec.ts:62:1 › keyboard opens an empty run, moves focus, and returns to the catalog (796ms)
+  ✓   5 tests/e2e/monitor.spec.ts:80:1 › a worker startup error is recoverable without displaying old data (653ms)
+  ✓   7 tests/e2e/monitor.spec.ts:144:1 › canvas retains the million-point spike at full range and after zoom; inspection reads exact raw values (822ms)
+  ✓   8 tests/e2e/monitor.spec.ts:166:1 › canvas leaves invalid values disconnected, and mouse hover reports the invalid reason (478ms)
+  ✓   9 tests/e2e/monitor.spec.ts:178:1 › drag zoom updates the rendered step domain and known missing ranges stay inspectable (529ms)
+  ✓   6 tests/e2e/monitor.spec.ts:91:1 › late replies from previous runs cannot replace the current run (2.5s)
+  ✓  11 tests/e2e/monitor.spec.ts:219:1 › actual canvas axis labels and exact readout preserve tiny numbers after a locale change (647ms)
+  ✓  10 tests/e2e/monitor.spec.ts:193:1 › zero remains inspectable on log scale and no-positive viewport is explicit (753ms)
+  ✓  13 tests/e2e/monitor.spec.ts:254:1 › pending zoom is labelled and a late frame cannot replace a newer viewport (679ms)
+  ✓  12 tests/e2e/monitor.spec.ts:240:1 › mobile layout stays within viewport and passes automated accessibility checks (2.9s)
+
+  13 passed (12.3s)
